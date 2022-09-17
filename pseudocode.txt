@@ -1,5 +1,6 @@
 READ AND WRITE "kode_barang"
 READ AND WRITE "jumlah"
+WHILE(status=true)
 
 IF kode_barang = 101 THEN
     nama_barang1 = ("susu kaleng")
@@ -23,4 +24,15 @@ ELSE IF kode_barang = 105 THEN
     jumlah=jumlah5
 ELSE
     PRINT"inputan salah, silahkan masukkan ulang"
+END IF
+(status=true)
+PRINT"masukan 1 untuk tambah barang, 2 untuk lanjut pembayaran"
+WRITE("pilihan")
+READ(pilihan)
+IF pilihan = 1 THEN
+    (status=false)
+ELSE IF pilihan = 2 THEN
+    (status=true)
+ELSE
+    PRINT"inputan salah"
 END IF
