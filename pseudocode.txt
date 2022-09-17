@@ -1,0 +1,26 @@
+READ AND WRITE "kode_barang"
+READ AND WRITE "jumlah"
+
+IF kode_barang = 101 THEN
+    nama_barang1 = ("susu kaleng")
+    harga_barang1 = 10000
+    jumlah=jumlah1
+ELSE IF kode_barang = 102 THEN
+    nama_barang2 = ("keripik kentang")
+    harga_barang2 = 12000
+    jumlah=jumlah2
+ELSE IF kode_barang = 103 THEN
+    nama_barang3 = ("mayonnaise")
+    harga_barang3 = 8000
+    jumlah=jumlah3
+ELSE IF kode_barang = 104 THEN
+    nama_barang4 = ("stik keju")
+    harga_barang4 = 15000
+    jumlah=jumlah4
+ELSE IF kode_barang = 105 THEN
+    nama_barang5 = ("bola ubi")
+    harga_barang5 = 9000
+    jumlah=jumlah5
+ELSE
+    PRINT"inputan salah, silahkan masukkan ulang"
+END IF
