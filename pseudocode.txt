@@ -36,3 +36,9 @@ ELSE IF pilihan = 2 THEN
 ELSE
     PRINT"inputan salah"
 END IF
+
+Total = (jumlah1*harga_barang1 + jumlah2*harga_barang2 + jumlah3*harga_barang3 + jumlah4*harga_barang4 + jumlah5*harga_barang5)
+
+PRINTIN(nama_barang);
+PRINTIN(jumlah);
+PRINTIN(Total);
